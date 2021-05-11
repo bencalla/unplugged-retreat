@@ -96,6 +96,7 @@ textarea {
      font-family: 'Open Sans', sans-serif;
      font-size: 1em;
      text-align: left;
+     color: #e2e3ed;
    }
 
    ul,
@@ -111,25 +112,19 @@ textarea {
    h2{
      font-family: 'Poppins', sans-serif;
      font-size: 2.25em;
+     font-weight: 500;
    }
 
    h3,
    h4{
      font-family: 'Poppins', sans-serif;
      font-size: 1.875em;
+     font-weight: 500;
    }
 
    p{
      font-size: 0.875em;
-     line-height: 1.125em;
-   }
-
-   img{
-
-   }
-
-   figure{
-
+     line-height: 1.5em;
    }
 
    address{
@@ -150,6 +145,7 @@ textarea {
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
+      background-color: #202322;
     }
 
     header{
@@ -176,6 +172,9 @@ textarea {
       align-items: center;
       flex-flow: row wrap;
       width: 60%;
+      font-size: 1.125em;
+      font-weight: 700;
+      text-transform: uppercase;
     }
 
     header nav ul{
@@ -184,8 +183,36 @@ textarea {
       width: 100%;
     }
 
+    aside .form {
+    margin-top: 30px;
+    }
+
+  input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    color: #2a423a;
+    font-style: italic;
+    padding: 1em;
+    color: #acadb3;
+    }
+
+  input[type=button] {
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    background-color: #2a423a;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.125em;
+    color: #e2e3ed;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
     footer{
       flex-direction: column;
+      text-align: center;
     }
 
     footer p{
@@ -194,7 +221,9 @@ textarea {
 
     footer .content-wrapper{
       width: 55%;
-      padding: 50px 0;
+      margin: 50px 0;
+      display: flex;
+      justify-content: space-between;
     }
 
     footer .contact{
@@ -227,6 +256,13 @@ textarea {
       flex-flow: row wrap;
     }
 
+    .main-content h1{
+      font-family: 'Poppins', sans-serif;
+      font-size: 3.75em;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
     /* Aside */
 
     aside{
@@ -234,6 +270,7 @@ textarea {
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
+      background-color: #527158;
     }
 
     .features{
@@ -260,6 +297,7 @@ textarea {
 
     .features p{
       margin: 0;
+      text-align: center;
     }
 
     /* Reviews */
@@ -268,6 +306,7 @@ textarea {
       display: flex;
       justify-content: center;
       flex-flow: row wrap;
+      background-color: #2a423a;
     }
 
     .reviews h3{
@@ -278,6 +317,7 @@ textarea {
     /* ----------------- Mobile Styles - About Page ------------------ */
 
     .mission{
+      background-color: #527158;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -285,6 +325,7 @@ textarea {
     }
 
     .contact-section{
+      background-color: #2a423a;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -298,6 +339,7 @@ textarea {
     /* ----------------- Mobile Styles - FAQ Page ------------------ */
 
     .faq{
+      background-color: #527158;
       display: flex;
       justify-content: center;
       align-items: center;
